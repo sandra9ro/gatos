@@ -1,11 +1,12 @@
 import React from 'react';
 import RandomCat from './RandomCat';
+import '../App.css';
 
 class CatList extends React.Component{
   render(){
     return(
       <section className="section-cats">
-        <h1>All cats are beautiful</h1>
+        <h1 className="blue">All cats are beautiful</h1>
         <ul className="section-cats_list">
           <li>
             <RandomCat width="200" height="200"/>

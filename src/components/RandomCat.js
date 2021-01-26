@@ -33,7 +33,7 @@ class RandomCat extends React.Component{
     //Pintar a los gatos
     return (
       <>
-      <a href="https://lorempixel.com">
+      <a href="https://lorempixel.com"> 
         <img src={`https://lorempixel.com/${widthHere()}/${heightHere()}/cats/${randomCat}`} alt="Random cat"/>
       </a>
       
